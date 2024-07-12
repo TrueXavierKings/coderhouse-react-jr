@@ -1,0 +1,18 @@
+.full-width-space {
+  width: 100%;
+  height: calc(100% - 13vh);
+  background-color: black;
+  position: absolute;
+  left: 0;
+}
+
+.content-area {
+  overflow: auto;
+  height: auto;
+  background-color: black;
+  padding-top: 26px;
+}
+
+.side-area {
+  background-color: #2b0033;
+}

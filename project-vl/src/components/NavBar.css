@@ -1,0 +1,41 @@
+.custom-navbar {
+  background: linear-gradient(to right, #00020c, #2b0033);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 13vh;
+  width: 100%;
+}
+
+.navbar-logo {
+  height: 100%;
+  max-height: 13vh;
+  width: auto;
+}
+
+.search-form {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.input-group .form-control {
+  border-right: 0;
+}
+
+.input-group .input-group-prepend .input-group-text {
+  background: none;
+  border-left: 0;
+  border-right: 1px solid #ced4da;
+}
+
+.fixed-width-button {
+  width: 130px;
+  margin-left: 13px;
+}
+
+.user-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #FFFFFF 0%, #56475E 100%) !important;
+  margin: 0 13px 0 13px;
+}
