@@ -7,18 +7,19 @@ import {
   InputGroup,
   Button,
 } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import { FaUser, FaSearch } from "react-icons/fa";
 import logo from "../assets/images/VLLogo.png";
-import CartWidget from './CartWidget';
+import CartWidget from "./CartWidget";
 import "./NavBar.css";
 
 const CustomNavbar = () => {
   return (
     <Navbar expand="lg" className="custom-navbar navbar-bg-light fixed-top">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand as={Link} to="/">
         <img src={logo} className="navbar-logo" alt="Logo" />
       </Navbar.Brand>
-      <Form inline className="search-form">
+      <Form className="form-inline search-form">
         <InputGroup>
           <InputGroup.Text id="basic-addon1">
             <FaSearch />
@@ -34,15 +35,30 @@ const CustomNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Button variant="outline-secondary" className="fixed-width-button">
+          <Nav.Link
+            as={Link}
+            to="/clips"
+            className="fixed-width-button"
+            variant="outline-secondary"
+          >
             Clips
-          </Button>
-          <Button variant="outline-secondary" className="fixed-width-button">
+          </Nav.Link>
+          <Nav.Link
+            as={Link}
+            to="/art"
+            className="fixed-width-button"
+            variant="outline-secondary"
+          >
             Art
-          </Button>
-          <Button variant="outline-secondary" className="fixed-width-button">
+          </Nav.Link>
+          <Nav.Link
+            as={Link}
+            to="/merchandising"
+            className="fixed-width-button"
+            variant="outline-secondary"
+          >
             Merchandising
-          </Button>
+          </Nav.Link>
           <CartWidget />
           <Nav.Link href="#user" className="user-icon">
             <FaUser size={39} />

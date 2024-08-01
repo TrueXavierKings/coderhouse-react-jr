@@ -1,7 +1,11 @@
-html {
-  background: darkgreen !important;
-}
-
 #root {
   width: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 26vh;
 }

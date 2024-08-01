@@ -1,14 +1,14 @@
 import React from "react";
 import './ItemListContainer.css';
 
-const ItemListContainer = () => {
+const ItemListContainer = (props) => {
   return (
-    <div class="full-width-space">
-      <div class="container-fluid h-100">
-        <div class="row h-100">
-          <div class="col-1 side-area"></div>
-          <div class="col-10 content-area">Welcome Friends!</div>
-          <div class="col-1 side-area"></div>
+    <div className="full-width-space">
+      <div className="container-fluid h-100">
+        <div className="row h-100">
+          <div className="col-1 side-area"></div>
+          <div className="col-10 content-area">{props.innerText}</div>
+          <div className="col-1 side-area"></div>
         </div>
       </div>
     </div>
