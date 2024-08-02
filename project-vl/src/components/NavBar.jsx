@@ -37,15 +37,15 @@ const CustomNavbar = () => {
         <Nav className="ms-auto">
           <Nav.Link
             as={Link}
-            to="/clips"
+            to="/category/videos"
             className="fixed-width-button"
             variant="outline-secondary"
           >
-            Clips
+            Videos
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/art"
+            to="/category/art"
             className="fixed-width-button"
             variant="outline-secondary"
           >
@@ -53,7 +53,7 @@ const CustomNavbar = () => {
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/merchandising"
+            to="/category/merchandising"
             className="fixed-width-button"
             variant="outline-secondary"
           >

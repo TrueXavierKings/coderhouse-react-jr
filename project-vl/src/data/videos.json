@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "songName": "WA DA DA",
+        "description:": "Kep1er first debut music video! - 4K and Girls Planet TV Show in which the band was formed!",
+        "releaseDate": "2022-01-03",
+        "youtubeLink": "https://www.youtube.com/embed/n0j5NPptyM0?si=G85pvBK8Ji8qClsG&amp;controls=0",
+        "albumName": "FIRST IMPACT",
+        "price": 9.99
+    },
+    {
+        "id": 2,
+        "songName": "Up!",
+        "description:": "Kep1er first comeback! Summer-Style - This contains MV in 4k and all the backstage clips",
+        "releaseDate": "2022-06-20",
+        "youtubeLink": "https://www.youtube.com/embed/hr-325mclek?si=PzpCn6TyrBWFyF2j&amp;controls=0",
+        "albumName": "DOUBLAST",
+        "price": 9.99
+    },
+    {
+        "id": 3,
+        "songName": "We Fresh",
+        "description:": "Kep1er refreshed! - All videos in 4K and see the real training of the girls",
+        "releaseDate": "2022-10-13",
+        "youtubeLink": "https://www.youtube.com/embed/zkvIzKwzYNc?si=sXtJ9SXsJEPu_uxp&amp;controls=0",
+        "albumName": "TROUBLESHOOTER",
+        "price": 9.99
+    },
+    {
+        "id": 4,
+        "songName": "Wing Wing",
+        "description:": "Kep1er 1st Japan Release! - MV, Backstage, first concert in Japan! and more (4k)",
+        "releaseDate": "2022-09-07",
+        "youtubeLink": "https://www.youtube.com/embed/eK4i2oN8jCk?si=1IaHPpIWVwsVqfOC&amp;controls=0",
+        "albumName": "Fly-Up!",
+        "price": 15.99
+    },
+    {
+        "id": 5,
+        "songName": "I Do! Do You?",
+        "description:": "Kep1er Party! - Music videos, backstage and some pijama party inside, all in 4K",
+        "releaseDate": "2023-03-15",
+        "youtubeLink": "https://www.youtube.com/embed/tJG13dtV464?si=QP1ajvxDwM2WY4DH&amp;controls=0",
+        "albumName": "Fly-By",
+        "price": 9.99
+    },
+    {
+        "id": 6,
+        "songName": "Galileo",
+        "description:": "Kep1er last comeback of the year! - See their new music video, backstages and more and yes here we have cats! all in 4K",
+        "releaseDate": "2023-09-21",
+        "youtubeLink": "https://www.youtube.com/embed/_Uvi-FgAsy4?si=SxFOwLJ0RViN54TP&amp;controls=0",
+        "albumName": "Magic Hour",
+        "price": 19.99
+    },
+    {
+        "id": 7,
+        "songName": "Shooting Star",
+        "description:": "Kep1er last comeback! - Last music video of the band all the insights here, Kep1er Forever!",
+        "releaseDate": "2023-05-30",
+        "youtubeLink": "https://www.youtube.com/embed/VjOHYXzlZcM?si=SS7K51trvxGLhxIG&amp;controls=0",
+        "albumName": "Kep1going",
+        "price": 29.99
+    }
+]
