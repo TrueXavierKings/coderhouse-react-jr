@@ -10,7 +10,8 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "19960812_kep1er0000_choiyujin",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/zMASI3zGTIo?si=7Mnf_8Wrqt_Ji7EJ&amp;controls=0"
     },
     {
         "name":  "Sakamoto Mashiro Photoshot",
@@ -23,7 +24,8 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "19991216_kep1er0000_sakamotomashiro",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/QIitfIQl8Po?si=COoyHDw1rgTn9lAA&amp;controls=0"
     },
     {
         "name":  "Shen Xiaoting Photoshot",
@@ -36,7 +38,8 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "19991112_kep1er0000_shenxiaoting",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/3r_l8__WXf0?si=vtnpN7zKCzMrH3Zr&amp;controls=0"
     },
     {
         "name":  "Kim Chaehyun Photoshot",
@@ -49,7 +52,8 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "20020426_kep1er0000_kimchaehyun",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/IGnwBdOvr98?si=k3dnXZtceus2iFbm&amp;controls=0"
     },
     {
         "name":  "Kim Dayeon Photoshot",
@@ -62,7 +66,8 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "20030302_kep1er0000_kimdayeon",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/Vq0hwJu1vvs?si=o00eXVicMYdsA5cv&amp;controls=0"
     },
     {
         "name":  "Ezaki Hikaru Photoshot",
@@ -75,7 +80,8 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "20040312_kep1er0000_ezakihikaru",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/-HIrBZjJ0Zs?si=xIbDe1V5iKuy52B9&amp;controls=0"
     },
     {
         "name":  "Huening Bahiyyih Photoshot",
@@ -88,7 +94,8 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "20040727_kep1er0000_hueningbahiyyih",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/BQKRPqpRtps?si=adLG3sHzJnBP7usC&amp;controls=0"
     },
     {
         "name":  "Seo Youngeun Photoshot",
@@ -101,7 +108,8 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "20051227_kep1er0000_seoyoungeun",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/_poM2zhWFqI?si=raj0sroYSojd5M6h&amp;controls=0"
     },
     {
         "name":  "Kang Yeseo Photoshot",
@@ -114,6 +122,7 @@
         "bandName":  "Kep1er",
         "bandKey":  "kep1er0000",
         "id":  "20050822_kep1er0000_kangyeseo",
-        "price": 13.0
+        "price": 13.0,
+        "youtubeLink": "https://www.youtube.com/embed/shjVJbTK2E8?si=XdNnssPP90HniRJM&amp;controls=0"
     }
 ]

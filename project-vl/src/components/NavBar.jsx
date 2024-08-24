@@ -12,6 +12,7 @@ import { FaUser, FaSearch } from "react-icons/fa";
 import logo from "../assets/images/VLLogo.png";
 import CartWidget from "./CartWidget";
 import "./NavBar.css";
+import { ItemCategory } from "./Constants";
 
 const CustomNavbar = () => {
   return (
@@ -37,7 +38,7 @@ const CustomNavbar = () => {
         <Nav className="ms-auto">
           <Nav.Link
             as={Link}
-            to="/category/videos"
+            to={`/category/${ItemCategory.VIDEO}`}
             className="fixed-width-button"
             variant="outline-secondary"
           >
@@ -45,7 +46,7 @@ const CustomNavbar = () => {
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/category/art"
+            to={`/category/${ItemCategory.ART}`}
             className="fixed-width-button"
             variant="outline-secondary"
           >
@@ -53,7 +54,7 @@ const CustomNavbar = () => {
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/category/merchandising"
+            to={`/category/${ItemCategory.MERCHANDISING}`}
             className="fixed-width-button"
             variant="outline-secondary"
           >

@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Card } from "react-bootstrap";
+import { ItemCategory } from "./Constants";
 
 const Art = () => {
   const [artworks, setArtworks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [imageSources, setImageSources] = useState({});
   const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchArtworks = async () => {
@@ -33,7 +36,7 @@ const Art = () => {
       const sources = {};
       for (const artwork of artworks) {
         try {
-          const image = await import(`../assets/images/art/${artwork.id}.png`);
+          const image = await import(`../assets/images/art/${artwork.id}.jpg`);
           sources[artwork.id] = image.default;
         } catch (error) {
           console.error('Error loading image', error);
@@ -52,7 +55,7 @@ const Art = () => {
   if (error) return <div>Error: {error.message}</div>;
 
   const handleCardClick = (id) => {
-    window.alert("Not yet implemented!");
+    navigate(`/item/${ItemCategory.ART}/${id}`);
   };
 
   return (

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, Button } from "react-bootstrap";
+import { ItemCategory } from "./Constants";
 
 const Videos = () => {
   const [videos, setVideos] = useState([]);
@@ -54,7 +55,7 @@ const Videos = () => {
   if (error) return <div>Error: {error.message}</div>;
 
   const handleCardClick = (id) => {
-    navigate(`/item/${id}`);
+    navigate(`/item/${ItemCategory.VIDEO}/${id}`);
   };
 
   return (

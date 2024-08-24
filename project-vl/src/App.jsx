@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<ItemListContainer innerText="Welcome Friends!" showFullCatalog={true}/>}/>
           <Route path="/category/:id" element={<ItemListContainer/>}/>
-          <Route path="/item/:id" element={<ItemDetailContainer/>}/>
+          <Route path="/item/:category/:id" element={<ItemDetailContainer/>}/>
           <Route path="*" element={404}/>
         </Routes>
       </BrowserRouter>
