@@ -1,3 +1,7 @@
+import { ItemCategory } from "../Constants";
+
+const videoImages = import.meta.glob('/src/assets/images/videos/*.jpg');
+
 export const fetchVideoById = async (id) => {
   try {
     const response = await fetch(
@@ -13,14 +17,24 @@ export const fetchVideoById = async (id) => {
   }
 };
 
-export const mapVideoToGenericItem = (video) => {
+export const mapVideoToGenericItem = async (video) => {
+  let imagePath = '/src/assets/images/no-pic.png';
+
+  const imageImport = videoImages[`/src/assets/images/videos/${video.id}.jpg`];
+  if (imageImport) {
+    const imageModule = await imageImport();
+    imagePath = imageModule.default;
+  }
+
   return {
     id: video.id,
     title: video.songName,
-    secondTitle: video.albumName,
+    subtitle: video.albumName,
+    imagePath: imagePath,
     description: video.description,
     secondDescription: "Release Date: " + video.releaseDate,
     price: video.price,
     mediaLink: video.youtubeLink,
+    category: ItemCategory.VIDEO
   };
 };

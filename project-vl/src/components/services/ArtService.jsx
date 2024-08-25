@@ -1,3 +1,7 @@
+import { ItemCategory } from "../Constants";
+
+const videoImages = import.meta.glob('/src/assets/images/art/*.jpg');
+
 export const fetchArtById = async (id) => {
   try {
     const response = await fetch(
@@ -13,16 +17,26 @@ export const fetchArtById = async (id) => {
   }
 };
 
-export const mapArtToGenericItem = (art) => {
+export const mapArtToGenericItem = async (art) => {
+  let imagePath = '/src/assets/images/no-pic.png';
+
+  const imageImport = videoImages[`/src/assets/images/art/${art.id}.jpg`];
+  if (imageImport) {
+    const imageModule = await imageImport();
+    imagePath = imageModule.default;
+  }
+
   return {
     id: art.id,
     title: art.name,
-    secondTitle: art.bandName,
+    subtitle: art.bandName,
+    imagePath: imagePath,
     description: art.description,
     secondDescription:
       "Birthday: " + art.birthday + ", Nationality: " + art.nationality,
     thirdDescription: "Weight: " + art.weight + ", Height: " + art.height,
     price: art.price,
-    mediaLink: art.youtubeLink
+    mediaLink: art.youtubeLink,
+    category: ItemCategory.ART
   };
 };

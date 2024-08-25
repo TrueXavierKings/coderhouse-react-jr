@@ -76,7 +76,7 @@ const Videos = () => {
               <Card.Body>
                 <Card.Title>{video.songName}</Card.Title>
                 <Card.Text>{video.albumName}</Card.Text>
-                <Card.Text>{video.price}</Card.Text>
+                <Card.Text>${video.price.toFixed(2)}</Card.Text>
               </Card.Body>
             </Card>
           </div>

@@ -75,7 +75,7 @@ const Art = () => {
               />
               <Card.Body>
                 <Card.Title>{art.name}</Card.Title>
-                <Card.Text>{art.price}</Card.Text>
+                <Card.Text>${art.price.toFixed(2)}</Card.Text>
               </Card.Body>
             </Card>
           </div>

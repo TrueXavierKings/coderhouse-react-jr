@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "title": "title1",
+      "subtitle": "subtitle1",
+      "category": "category1",
+      "imagePath": "",
+      "quantity": 1,
+      "price": 10
+    },
+    {
+      "title": "title2",
+      "subtitle": "subtitle2",
+      "category": "category2",
+      "imagePath": "",
+      "quantity": 2,
+      "price": 5
+    }
+  ],
+  "cartItemsQuantity": 3,
+  "itemsTotalPrice": 20,
+  "tax": 1,
+  "cartTotalPrice": 21,
+  "email": "test@test.com"
+}
